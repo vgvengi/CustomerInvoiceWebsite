@@ -1,0 +1,85 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.MainDiv{
+    /* background-color: #F2F4F6; */
+}
+.Dashboard{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+.Dashboard h5{
+    font-weight: lighter;
+}
+.CustomerInvoice{
+    display: flex;
+    height: 28rem;
+    width:58rem;
+    margin-top: 40px;
+    margin-left: 15px;
+    border: 1px solid;
+    border-color: lightgray;
+
+}
+.invoice{
+    height: fit-content;
+}
+.CustomerInvoice h6{
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size:20px;
+    margin-bottom: 1px;
+    /* margin */
+}
+.CustomerInvoice  h5{
+    font-size: large;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+.CustomerInvoice p{
+    margin-left: 15px;
+}
+.custominput{
+    display: flex;
+    
+}
+.custominput input{
+    width: 400px;
+    border:none;
+    border-bottom: 1px solid blue;
+    border-width: 2px;
+    outline: none;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.custominput select{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* color: blue;  */
+
+}
+.InvoiceDate{
+    margin-top: 105px;
+    font-weight: bold;
+}
+.InvoiceDetails {
+    display: flex;
+    flex-direction:row;
+    position:absolute;
+    margin-top: 300px;
+}
+.table{
+    display: flex;
+    position: absolute;
+    border: 0.5px solid black;
+    margin-top: 340px;
+    gap: 20px;
+}
+.tab{
+    border: 1px solid black;
+}
